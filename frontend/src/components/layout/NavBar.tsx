@@ -1,8 +1,8 @@
-import { Button, buttonVariants } from "../components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Button, buttonVariants } from "../ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ModeToggle } from "../components/ui/mode-toggle";
+import { ModeToggle } from "../ui/mode-toggle";
 
 const NavBar = () => {
   const [isSelected, setIsSelected] = useState(null);

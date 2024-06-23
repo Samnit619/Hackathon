@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NavBar from "./compo/NavBar";
+import NavBar from "./components/layout/NavBar";
 import Team from "./pages/Team";
 import LandingPage from "./pages/LandingPage";
 import { ThemeProvider } from "./components/ui/theme-provider";
-import { Children } from "react";
 
 function App() {
 
